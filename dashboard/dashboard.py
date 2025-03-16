@@ -5,7 +5,7 @@ import seaborn as sns
 
 st.title("Dashboard Analisis Data Bike Sharing")
 
-file_path = "main_data.csv"
+file_path = "dashboard/main_data.csv"
 main_data = pd.read_csv(file_path)
 
 main_data["dteday"] = pd.to_datetime(main_data["dteday"], errors='coerce')
