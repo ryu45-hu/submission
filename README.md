@@ -1,4 +1,5 @@
-###Bike Sharing
+# Bike Sharing Dashboard
+
 ## Setup Environment - Terminal
 ```
 mkdir proyek_analisis_data
